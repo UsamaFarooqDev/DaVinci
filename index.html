@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/app.css">
+    <title>Da Vinci Tower</title>
+</head>
+
+<body>
+    <div class="container-fluid header">
+        <div class="wrapper">
+            <div class="row content">
+                <div class="col-sm-12 col-12">
+                    <h1>Da Vinci Tower</h1>
+                    <h3>Interiors By</h3>
+                    <img src="images/logo.png" width="300" class="img-fluid" alt=""> <br>
+                    <a href="" class="btn btn-contact">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- card buttons -->
+    <div class="container action_buttons">
+        <div class="row">
+            <div class="col-sm-3 col-6">
+                <button><a href="floorplan/floorplan.pdf" download="">Floor Plan</a></button>
+            </div>
+            <div class="col-sm-3 col-6">
+                <button onclick="show_gallery()">Gallery</button>
+            </div>
+            <div class="col-sm-3 col-6">
+                <button onclick="show_video()">Videos</button>
+            </div>
+            <div class="col-sm-3 col-6">
+                <button>Map</button>
+            </div>
+        </div>
+    </div>
+    <!-- speed info -->
+    <div class="container-fluid">
+        <div class="row ">
+            <div class="col-sm-4 text-start col-12 para">
+                <span>
+                    <h1>THE SHAPE OF</h1>
+                    <h2 class="brush">Speed</h2>
+                </span>
+                <br>
+                <p>
+                    Pagani‘s first residences ever are brought to life in a <br>
+                    unique tower. The building design is one that makes <br>
+                    your head turn: the instability of lines, a strong uneven <br>
+                    approach, transparency and hidden balances create a <br>
+                    dynamic effect like no other in the surroundings. But <br>
+                    it’s when you get closer that you discover the pearl, an <br>
+                    incredible suspended sphere that defies gravity. The <br>
+                    tower is a true geometric symphony of perfection with <br>
+                    19 floors of residential masterpieces, 3 basement levels <br>
+                    and a majestic ground floor.
+                </p>
+            </div>
+            <div class="col-sm-8 col-12 img_speed text-end">
+                <section class="circle"></section>
+                <section class="mainspeed"></section>
+                <!-- <img src="images/speed.png" class="img-fluid" width="800" alt=""> -->
+            </div>
+        </div>
+        <!-- 3 images -->
+        <div class="row align-items-center">
+            <div class="col-sm-7 col-12  text-end">
+                <div class="row align-items-center img_three_main text-end">
+                    <div class="col-sm-6 text-end align-items-center">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <img src="images/1.png" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <img src="images/2.png" class="img-fluid" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 text-start img-three">
+                        <img src="images/3.png" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-5 text-start col-12 para3">
+                <span>
+                    <h1>Breathtaking</h1>
+                    <h2 class="brush">Views</h2>
+                </span>
+                <br>
+                <p>
+                    The building sits in a strategic position, letting <br>
+                    you enjoy the best of Dubai’s panoramas. <br>
+                    On the South-East side you can indulge in the <br>
+                    soothing view of water, with the Canal, the <br>
+                    floating villas and the Business Bay at your <br>
+                    feet. On the North side, the Burj Khalifa stands <br>
+                    just outside of your window.
+                </p>
+            </div>
+
+        </div>
+        <!-- luxury -->
+        <div class="row align-items-center">
+            <div class="col-sm-4 d-flex flex-column para" >
+                <span >
+                    <h1>Living</h1> 
+                    <h2 class="brush">above luxury</h2> 
+                </span>
+                <br>
+                <p>
+                    For the first time in the world, <br>
+                    Pagani’s essence takes the shape <br>
+                    of a living space: DaVinci Tower is <br>
+                    a residential building in downtown <br>
+                    Dubai with interiors designed by  <br>
+                    Pagani. <br> <br>
+                    Every detail is crafted to obsession, <br>
+                    every material is of the finest quality, <br>
+                    every line is designed with taste and  <br>
+                    harmony, resulting in the unique <br>
+                    experience of inhabiting a masterpiece. <br>
+                </p>
+            </div>
+            <div class="col-sm-8">
+                <img src="images/luxury.png" class="img-fluid" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- locations -->
+    <div class="container-fluid location mt-5">
+        <div class="row text-center">
+            <h2 class="brush text-white">Every Spot At Your Walking Distance</h2>
+        </div>
+        <div class="row align-items-center">
+            <div class="offset-sm-1 col-sm-3 col-12 text-white">
+                <h3><b>Location:</b></h3> <br>
+                <section>
+                    <span>5 MINUTES</span>
+                    <h3><b>THE DUBAI CANAL</b></h3>
+                    <span>A 3.2 Km-long tourist landmark</span>
+                </section>
+                <br>
+                <section>
+                    <span>DIRECTLY ON</span>
+                    <h3><b>THE DUBAI MALL</b></h3>
+                    <span>The world’s largest retail &
+                        entertainment destination
+                        </span>
+                </section>
+                <br>
+                <section>
+                    <span>DIRECTLY ON</span>
+                    <h3><b>THE DUBAI FOUNTAIN</b></h3>
+                    <span>The world’s tallest performing fountain
+                        with a captivating water, music & light
+                        spectacle                        
+                        </span>
+                </section>
+                <br>
+                <section>
+                    <span>7 MINUTE</span>
+                    <h3><b>BURJ KHALIFA</b></h3>
+                    <span>The world’s tallest building
+                        </span>
+                </section>
+                <br>
+                <section>
+                    <span>7 MINUTES</span>
+                    <h3><b>THE DUBAI OPERA</b></h3>
+                    <span>2000 seat multi-format venue
+                        </span>
+                </section>
+            </div>
+            <div class="col-sm-8 col-12">
+                <img src="images/location.png" class="img-fluid" alt="">
+            </div>
+        </div>
+    </div>
+            <!-- contact form -->
+
+    <div class="container-fluid contactform">
+        <div class="wrapper-contact ">
+            <div class="row text-center">
+                <h1 class="text-white">Contact Us</h1>
+            </div>
+            <div class="row ">
+                <div class=" offset-sm-4 col-sm-4 offset-sm-4  col-12">
+                    <form action="">
+                        <label for="">Name:</label>
+                        <input type="text" name="" placeholder="Name" required id="" class="form-control">
+                        <label for="">Email:</label>
+                        <input type="email" name="" placeholder="Email" required id="" class="form-control">
+                        <label for="">Phone Number:</label>
+                        <input type="text" name="" placeholder="Phone Number" required id="" class="form-control">
+                        <label for="">Message:</label>
+                        <textarea name="" id="" cols="30" rows="5" class="form-control" placeholder="Message"></textarea>
+                        <br>
+                        <div class="row justify-content-center">
+                            <input type="submit" value="Submit" style="width: 200px;" class="btn btn-contact">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- sliders -->
+    <div id="gallery">
+        <div class="container">
+            <div class="row text-end">
+                <div class="col-sm-12">
+                    <span onclick="hide_gallery()">Close &times</span>
+                </div>
+            </div>
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="gallery/1.jpg" alt="First slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="gallery/2.jpg" alt="Second slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="gallery/3.jpg" alt="Third slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="gallery/4.jpg" alt="Third slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="gallery/5.jpg" alt="Third slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="gallery/6.jpg" alt="Third slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="gallery/7.jpg" alt="Third slide">
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+        </div>
+    </div>
+    <!-- video -->
+    <div id="video">
+        <div class="container">
+            <div class="row text-end">
+                <div class="col-sm-12">
+                    <span onclick="hide_video()">Close &times</span>
+                </div>
+            </div>
+          <div class="row">
+              <div class="offset-sm-2 col-sm-8 offset-sm-2">
+                <video controls class="form-control" id="myvideo">
+                    <source src="video/DAVINCI TOWER_10s_16-9.mp4" type="video/mp4">
+                </video>
+              </div>
+          </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="js/app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    
+</body>
+
+</html>

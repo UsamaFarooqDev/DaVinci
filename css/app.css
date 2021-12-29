@@ -1,0 +1,182 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+@font-face {
+    font-family: 'Bebas';
+    src: url('../fonts/BebasNeue-Regular.ttf');
+}
+@font-face {
+    font-family: 'brush';
+    src: url('../fonts/brush\ script.ttf');
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+}
+.container-fluid{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.header , .contactform{
+    background: url('../images/back.jpg');
+  padding: 0px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 800px;
+    min-height: 400px;
+}
+.wrapper{
+    background: rgba(0, 0, 0, 0.521);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    min-height: 400px;
+    margin-left: 0px;
+    margin-right: 0px;
+    z-index: 1;
+    text-align: center;
+}
+.wrapper-contact{
+    background: #244e6e8a;
+
+   padding-top: 130px;
+    height: 800px;
+    min-height: 400px;
+    margin-left: 0px;
+    margin-right: 0px;
+    z-index: 1;
+   
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: white;
+}
+.btn-contact{
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+}
+.btn-contact:hover{
+    color: black;
+    background: white;
+}
+.content{
+    color: white;
+}
+.content h1{
+    font-family: 'Bebas';
+    font-size: 60px;
+}
+.action_buttons{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.action_buttons button{
+    background: #244E6E;
+    border-radius: 20px;
+    font-family: 'brush';
+    border: none;
+    padding: 10px;
+    color: white;
+    width: 150px;
+    margin-bottom: 10px;
+}
+.brush{
+    font-family: 'brush';
+}
+.img_speed{
+    position: relative;
+    text-align: end;
+}
+.mainspeed{
+    height: 650px;
+    width: 700px;
+    background: url('../images/speed.png');
+    background-size: cover;
+    float: right;
+}
+.circle{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background: url('../images/speed.png');
+    background-size: contain;
+    border-radius: 250px;
+    top: 20%;
+    left: 18%;
+    border: 10px solid white;
+}
+.para{
+    padding-left: 10%;
+    display: flex;
+    flex-direction: column;
+    
+    text-align: start;
+    justify-content: center;
+}
+.para span{
+    text-align: start !important;
+}
+.img_three_main{
+    display: flex;
+    justify-content: end;
+}
+.img-three{
+margin-left: -10%;
+}
+.location{
+    background: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.contactform form{
+    background: #244E6E;
+    color: white;
+    padding: 40px;
+}
+#gallery , #video{
+    position: absolute;
+   top: 0;
+   width: 100%;
+   background: rgba(0, 0, 0, 0.548);
+    align-items: center;
+    height: 100vh;
+    display: none;
+}
+#gallery span , #video span{
+    color: white;
+    cursor: pointer;
+}
+@media only screen and (max-width: 980px) {
+    body{
+        overflow-x: hidden !important;
+    }
+    .mainspeed{
+        height: 650px;
+        width: 600px;
+        background-size: cover;
+        float: right;
+    }
+    .circle{
+        position: absolute;
+        width: 300px;
+        height: 300px;
+    
+        background-size: contain;
+        border-radius: 150px;
+        top: 20%;
+        border: 5px solid white;
+    }
+    .img-three{
+        margin-left: 0;
+        }
+  }
